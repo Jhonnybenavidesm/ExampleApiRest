@@ -7,13 +7,18 @@ const hostname = '127.0.0.1';
 const PORT = process.env.PORT || 5000
 
 let users = ['oscar', 'juan', 'marcos', 'julieta','jhonny'];
-let books = [
-    {titulo: 'El señor de los anillos', autor: 'J.R.R. Tolkien'},
-    {titulo: "Cancion de hielo y fuego", autor: 'George RR Martin'}
+let movies = [
+    {titulo: 'Avengers Infinity War', genero: 'Fantasia'},
+    {titulo: 'Nada que Perder', genero: 'Accion/Aventura'},
+    {titulo: 'El no nacido', genero: 'Terror'},
+    {titulo: 'Deadpool2', genero: 'Fantasia/Comedia'},
+   
 ];
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+
+
 
 // ********************************************************************
 // ********************************************************************
@@ -30,7 +35,7 @@ app.get('/users', (req, res) => {
     res.send(users)
 })
 
-// URL para eliminar un usuario
+// URL para crear un usuario
 // http://127.0.0.1:5000/users
 app.post('/users', (req, res) => {
     let data = req.query;
@@ -58,6 +63,46 @@ app.delete('/users/:id',(req, res) => {
 // ********************************************************************
 // ********************************************************************
 
+
+
+// URL para listar todos las peliculas
+// http://127.0.0.1:5000/users
+app.get('/movies', (req, res) => {
+    res.send(movies)
+})
+
+// URL para crear una pelicula
+// http://127.0.0.1:5000/users
+app.post('/movies', (req, res) => {
+    let data = req.query;
+    movies.push(data.movies_name)
+    res.send("New movie add")
+})
+
+// URL para actualizar una pelicula
+// http://127.0.0.1:5000/users/1
+app.patch('/movies/:id',(req, res) => {
+    let params = req.params;
+    let data = req.query;
+    movies[params.id] = data.movies_name
+    res.send("Movies update")
+})
+
+// URL para eliminar una pelicula
+// http://127.0.0.1:5000/users/1
+app.delete('/movies/:id',(req, res) => {
+    let params = req.params;
+    movies.splice(params.id, 1);
+    res.send('Movies delete')
+})
+
+
+
+
+
+
+//**********************************************************************
+//**********************************************************************
 // Crear y lanzar el servidor
 http.createServer(app).listen(PORT, () => {
     console.log(`Server running at http://${hostname}:${PORT}/`);
