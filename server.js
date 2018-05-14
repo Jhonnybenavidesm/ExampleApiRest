@@ -74,9 +74,9 @@ app.get('/movies', (req, res) => {
 // URL para crear una pelicula
 // http://127.0.0.1:5000/users
 
-app.post('/users', (req, res) => {
+app.post('/movies', (req, res) => {
     let data = req.query;
-    users.push(data.user_name)
+    movies.push(data.movies_name)
     res.send("New user add")
 })
 
