@@ -61,38 +61,42 @@ app.delete('/users/:id',(req, res) => {
 // ********************************************************************
 // ********************************************************************
 
-// URL para listar todos los usuarios
+
+
+
+// URL para listar todos las peliculas
 // http://127.0.0.1:5000/users
 app.get('/movies', (req, res) => {
     res.send(movies)
 })
 
-// URL para crear un usuario
+// URL para crear una pelicula
 // http://127.0.0.1:5000/users
+
 app.post('/movies', (req, res) => {
     let data = req.query;
     movies.push(data.movies_name)
     res.send("New user add")
 })
 
-// URL para actualizar un usuario
+// URL para actualizar una pelicula
 // http://127.0.0.1:5000/users/1
-app.patch('/movies_name/:id',(req, res) => {
-    let params = req.params;
-    let data = req.query;
-    movies[params.id] = data.movies_name
-    res.send("Movie update")
+app.post('/movies', (req, res) => {
+   let data = req.query;
+    let items = {titulo: data.movies_name genero: data.gen anio: data.ani director: data.dire imagen: data.ima trailer: data.trai}
+    movies.push(data.movies_name)
+    res.send("New movie add")
 })
 
-// URL para eliminar un usuario
+
+
+// URL para eliminar una pelicula
 // http://127.0.0.1:5000/users/1
 app.delete('/movies/:id',(req, res) => {
     let params = req.params;
     movies.splice(params.id, 1);
-    res.send('Movie delete')
+    res.send('Movies delete')
 })
-
-
 
 
 
