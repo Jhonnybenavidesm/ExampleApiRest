@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000
 
 let users = ['oscar', 'juan', 'marcos', 'julieta','jhonny'];
 let movies = [
-    {titulo: 'Avengers Infinity War', genero: 'Fantasia', anio: '2018', director: 'Anthony Russo'}
+    {id: 1, titulo: 'Avengers Infinity War', genero: 'Fantasia', anio: '2018', director: 'Anthony Russo'}
    
    
 ];
@@ -83,7 +83,7 @@ app.post('/movies', (req, res) => {
 // http://127.0.0.1:5000/users/1
 app.post('/movies', (req, res) => {
    let data = req.query;
-    let items = {titulo: data.movies_name genero: data.gen anio: data.ani director: data.dire}
+    let items = {titulo: data.movies_names}
     movies.push(data.movies_name)
     res.send("New movie add")
 })
