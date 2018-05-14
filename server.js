@@ -82,11 +82,7 @@ app.post('/movies', (req, res) => {
 
 // URL para actualizar una pelicula
 // http://127.0.0.1:5000/users/1
-app.patch('/movies/:id',(req, res) => {
-    let params = req.params;
-    let data = req.query;
-    movies[params.id] = data.movies_name
-    res.send("Movie update")
+
 
 
 
