@@ -83,7 +83,7 @@ app.post('/movies', (req, res) => {
 // http://127.0.0.1:5000/users/1
 app.post('/movies', (req, res) => {
    let data = req.query;
-    let items = {titulo: data.movies_name genero: data.gen anio: data.ani director: data.dire imagen: data.ima trailer: data.trai}
+    let items = {titulo: data.movies_name genero: data.gen anio: data.ani director: data.dire}
     movies.push(data.movies_name)
     res.send("New movie add")
 })
