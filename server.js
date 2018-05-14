@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000
 
 let users = ['oscar', 'juan', 'marcos', 'julieta','jhonny'];
 let movies = [
-    {titulo: 'Avengers Infinity War', genero: 'Fantasia', anio: '2018', director: 'Anthony Russo', imagen: 'https://www.google.com.co/search?q=Avengers+Infinity+War+sin+https&rlz=1C1CHZL_esCO760CO760&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjl8Ji8zYXbAhWBrFkKHUEjA54Q_AUICygC&biw=1366&bih=662#imgrc=njNm9mZpwY9eIM:', trailer 'https://www.youtube.com/watch?v=-f5PwE_Q8Fs'}
+    {titulo: 'Avengers Infinity War', genero: 'Fantasia', anio: '2018', director: 'Anthony Russo'}
    
    
 ];
