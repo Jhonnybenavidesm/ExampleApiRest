@@ -8,7 +8,10 @@ const PORT = process.env.PORT || 5000
 
 let users = ['oscar', 'juan', 'marcos', 'julieta','jhonny'];
 let movies = [
-    {id: 1, titulo: 'Avengers Infinity War', genero: 'Fantasia', anio: '2018', director: 'Anthony Russo'}
+    {id: 1, titulo: 'Avengers Infinity War', genero: 'Fantasia', anio: '2018', director: 'Anthony Russo', imagen: 'http:' trailer'http:'},
+    {id: 2, titulo: 'Nada que Perder', genero: 'Accion/Aventura' , anio: '2018', director: 'Alexandre Avancini', imagen: 'http:', trailer 'http:'},
+    {id: 3, titulo: 'El no nacido', genero: 'Terror', anio: '2009', director: 'David S. Goyer', imagen: 'http::', trailer 'http:'},
+    {id: 4, titulo: 'Deadpool2', genero: 'Fantasia/Comedia', anio: '2018', director: 'David Leitch', imagen: 'http:', trailer 'http:'},
    
    
 ];
@@ -75,7 +78,7 @@ app.get('/movies', (req, res) => {
 
 app.post('/movies', (req, res) => {
    let data = req.query;
-    let items = {titulo: data.movies_name, genero: data.gen, anio: data.ani, director: data.dire}
+    let items = {titulo: data.movies_name, genero: data.gen, anio: data.ani, director: data.dire, imagen:data.ima, trailer: data.tra}
     movies.push(data.movies_name)
     res.send("New movie add")
 })
