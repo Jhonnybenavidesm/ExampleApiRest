@@ -74,19 +74,19 @@ app.get('/movies', (req, res) => {
 // http://127.0.0.1:5000/users
 
 app.post('/movies', (req, res) => {
-    let data = req.query;
-    movies.push(data.movies_name)
-    res.send("New user add")
-})
-
-// URL para actualizar una pelicula
-// http://127.0.0.1:5000/users/1
-app.post('/movies', (req, res) => {
    let data = req.query;
     let items = {titulo: data.movies_name, genero: data.gen, anio: data.ani, director: data.dire}
     movies.push(data.movies_name)
     res.send("New movie add")
 })
+
+// URL para actualizar una pelicula
+// http://127.0.0.1:5000/users/1
+app.patch('/movies/:id',(req, res) => {
+    let params = req.params;
+    let data = req.query;
+    movies[params.id] = data.user_name
+    res.send("User update")
 
 
 
