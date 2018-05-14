@@ -11,7 +11,7 @@ let movies = [
     {id: 1, titulo: 'Avengers Infinity War', genero: 'Fantasia', anio: '2018', director: 'Anthony Russo', imagen: 'http' trailer'http:'},
     {id: 2, titulo: 'Nada que Perder', genero: 'Accion/Aventura' , anio: '2018', director: 'Alexandre Avancini', imagen: 'http:', trailer 'http:'},
     {id: 3, titulo: 'El no nacido', genero: 'Terror', anio: '2009', director: 'David S. Goyer', imagen: 'http::', trailer 'http:'},
-    {id: 4, titulo: 'Deadpool2', genero: 'Fantasia/Comedia', anio: '2018', director: 'David Leitch', imagen: 'http:', trailer 'http:'},
+    {id: 4, titulo: 'Deadpool2', genero: 'Fantasia/Comedia', anio: '2018', director: 'David Leitch', imagen: 'http:', trailer 'http:'}
    
    
 ];
