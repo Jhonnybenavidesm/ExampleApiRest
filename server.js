@@ -6,9 +6,20 @@ const app = express()
 const hostname = '127.0.0.1';
 const PORT = process.env.PORT || 5000
 
-let users = ['oscar', 'juan', 'marcos', 'julieta','jhonny'];
+var users = [
+    {
+        id: '0',
+        user: 'admin',
+        password: '123456',
+        name: 'admin',
+        email: 'admin@movies.com',
+        img_user: 'https://www.littlemiracles.com.au/wp-content/uploads/2015/08/kid-on-ipad.png'
+    }
+];
+
+
 let movies = [
-    {id: 1, titulo: 'Avengers Infinity War', genero: 'Fantasia', anio: '2018', director: 'Anthony Russo'},
+    {id: 1, titulo: 'Avengers Infinity War', genero: 'Fantasia', anio: '2018', director: 'Anthony Russo',imagen:'http://www.rockandpop.cl/wp-content/uploads/2018/03/landscape-1500890190-avengers-infinity-war-poster-resized-1.jpg', trailer:'https://new.cinemark.com.co/movie?tag=2400&corporate_film_id=176879'},
     {id: 2, titulo: 'Nada que Perder', genero: 'Accion/Aventura' , anio: '2018', director: 'Alexandre Avancini'},
     {id: 3, titulo: 'El no nacido', genero: 'Terror', anio: '2009', director: 'David S. Goyer'},
     {id: 5, titulo: 'Deadpool2', genero: 'Fantasia/Comedia', anio: '2018', director: 'David Leitch'},
