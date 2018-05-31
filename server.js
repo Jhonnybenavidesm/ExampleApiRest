@@ -63,39 +63,47 @@ app.get('/', (req, res) => {
     res.status(200).send("Welcome to API REST")
 })
 
-// URL para listar todos los usuarios
-// http://127.0.0.1:5000/users
-app.get('/users', (req, res) => {
-    res.send(users)
-})
+app.post('/login', (req, res) => {
+    let data = req.body;
+    let login = [{searchUser: false,id: '0',user: '',password: '',name: '',email: '',img_user:''}];
 
-// URL para crear un usuario
-// http://127.0.0.1:5000/users
-app.post('/users', (req, res) => {
-    let data = req.query;
-    users.push(data.user_name)
-    res.send("New user add")
-})
+    users.some(function (value, index, _arr) {
+        if( (value.user == data.user) && (value.password == data.pass) ){
+            login[0]['searchUser'] = true;
+            login[0]['id'] = value.id;
+            login[0]['user'] = value.user;
+            login[0]['password'] = value.password;
+            login[0]['name'] = value.name;
+            login[0]['email'] = value.email;
+            login[0]['img_user'] = value.img_user;
+            return true;
+        }else{
+            return false;
+        }
+    });
 
-// URL para actualizar un usuario
-// http://127.0.0.1:5000/users/1
-app.patch('/users/:id',(req, res) => {
-    let params = req.params;
-    let data = req.query;
-    users[params.id] = data.user_name
-    res.send("User update")
-})
-
-// URL para eliminar un usuario
-// http://127.0.0.1:5000/users/1
-app.delete('/users/:id',(req, res) => {
-    let params = req.params;
-    users.splice(params.id, 1);
-    res.send('User delete')
+    res.send(login)
 })
 
 // ********************************************************************
 // ********************************************************************
+
+
+app.post('/signup', (req, res) => {
+    let data = req.body;
+    let consecutive = users.length;
+  
+    let itemUser = {
+        user: data.user,
+        password: data.pass,
+        name: data.name,
+        email: data.email,
+        repassword: '123'
+    };
+    // users.push(itemUser)
+    res.send(itemUser)
+    // res.send("usuario creado correctamente")
+})
 
 
 
