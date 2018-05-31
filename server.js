@@ -23,14 +23,14 @@ var users = [
 var pelicula = [
      {  id: 1, titulo: 'Avengers Infinity War', 
         genero: 'Fantasia', anio: '2018', director: 'Anthony Russo',
-        imagenn:'http://www.rockandpop.cl/wp-content/uploads/2018/03/landscape-1500890190-avengers-infinity-war-poster-resized-1.jpg',
+        imagen:'http://www.rockandpop.cl/wp-content/uploads/2018/03/landscape-1500890190-avengers-infinity-war-poster-resized-1.jpg',
         trailer:'https://new.cinemark.com.co/movie?tag=2400&corporate_film_id=176879'
      }
 ];
 
 var generos = [
     {
-        genero: 'GRUPO A',
+        genero: 'FANTASIA',
         team1: 'Rusia',
         team2: 'Arabia Saudí',
         team3: 'Egipto',
