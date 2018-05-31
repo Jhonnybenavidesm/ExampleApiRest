@@ -20,102 +20,17 @@ var users = [
     }
 ];
 
-var calendar = [
-    {
-        wType: '1',
-        day: 'Jueves 14 junio',
-        img_local: '',
-        local: '',
-        img_visitor: '',
-        visitor: '',
-        hour: ''
-    },
-    {
-        wType: '0',
-        day: '',
-        img_local: 'http://flags.fmcdn.net/data/flags/w1160/ru.png',
-        local: 'Rusia',
-        img_visitor: 'http://flags.fmcdn.net/data/flags/w1160/sa.png',
-        visitor: 'Arabia',
-        hour: '10:00'
-    },
-    {
-        wType: '1',
-        day: 'Viernes 15 junio',
-        img_local: '',
-        local: '',
-        img_visitor: '',
-        visitor: '',
-        hour: ''
-    },
-    {
-        wType: '0',
-        day: '',
-        img_local: 'http://flags.fmcdn.net/data/flags/w1160/eg.png',
-        local: 'Egipto',
-        img_visitor: 'http://flags.fmcdn.net/data/flags/w1160/uy.png',
-        visitor: 'Uruguay',
-        hour: '07:00'
-    },
-    {
-        wType: '0',
-        day: '',
-        img_local: 'http://flags.fmcdn.net/data/flags/w1160/ma.png',
-        local: 'Marruecos',
-        img_visitor: 'http://flags.fmcdn.net/data/flags/w1160/ir.png',
-        visitor: 'RI de Irán',
-        hour: '10:00'
-    },
-    {
-        wType: '0',
-        day: '',
-        img_local: 'http://flags.fmcdn.net/data/flags/w1160/pt.png',
-        local: 'Portugal',
-        img_visitor: 'http://flags.fmcdn.net/data/flags/w1160/es.png',
-        visitor: 'España',
-        hour: '13:00'
-    },
-    {
-        wType: '1',
-        day: 'Sábado 16 junio',
-        img_local: '',
-        local: '',
-        img_visitor: '',
-        visitor: '',
-        hour: ''
-    },
-    {
-        wType: '0',
-        day: '',
-        img_local: 'http://flags.fmcdn.net/data/flags/w1160/fr.png',
-        local: 'Francia',
-        img_visitor: 'http://flags.fmcdn.net/data/flags/w1160/au.png',
-        visitor: 'Australia',
-        hour: '05:00'
-    },
-    {
-        wType: '0',
-        day: '',
-        img_local: 'http://flags.fmcdn.net/data/flags/w1160/ar.png',
-        local: 'Argentina',
-        img_visitor: 'http://flags.fmcdn.net/data/flags/w1160/is.png',
-        visitor: 'Islandia',
-        hour: '08:00'
-    },
-    {
-        wType: '0',
-        day: '',
-        img_local: 'http://flags.fmcdn.net/data/flags/w1160/pe.png',
-        local: 'Perú',
-        img_visitor: 'http://flags.fmcdn.net/data/flags/w1160/dk.png',
-        visitor: 'Dinamarca',
-        hour: '08:00'
-    }
+var pelicula = [
+     {  id: 1, titulo: 'Avengers Infinity War', 
+        genero: 'Fantasia', anio: '2018', director: 'Anthony Russo',
+        imagen:'http://www.rockandpop.cl/wp-content/uploads/2018/03/landscape-1500890190-avengers-infinity-war-poster-resized-1.jpg',
+         trailer:'https://new.cinemark.com.co/movie?tag=2400&corporate_film_id=176879'
+     }
 ];
 
-var groups = [
+var generos = [
     {
-        group: 'GRUPO A',
+        genero: 'GRUPO A',
         team1: 'Rusia',
         team2: 'Arabia Saudí',
         team3: 'Egipto',
@@ -124,84 +39,8 @@ var groups = [
         team_img2: 'http://flags.fmcdn.net/data/flags/w1160/sa.png',
         team_img3: 'http://flags.fmcdn.net/data/flags/w1160/eg.png',
         team_img4: 'http://flags.fmcdn.net/data/flags/w1160/uy.png'
-    },
-    {
-        group: 'GRUPO B',
-        team1: 'Portugal',
-        team2: 'España',
-        team3: 'Marruecos',
-        team4: 'RI de Irán',
-        team_img1: 'http://flags.fmcdn.net/data/flags/w1160/pt.png',
-        team_img2: 'http://flags.fmcdn.net/data/flags/w1160/es.png',
-        team_img3: 'http://flags.fmcdn.net/data/flags/w1160/ma.png',
-        team_img4: 'http://flags.fmcdn.net/data/flags/w1160/ir.png'
-    },
-    {
-        group: 'GRUPO C',
-        team1: 'Francia',
-        team2: 'Australia',
-        team3: 'Perú',
-        team4: 'Dinamarca',
-        team_img1: 'http://flags.fmcdn.net/data/flags/w1160/fr.png',
-        team_img2: 'http://flags.fmcdn.net/data/flags/w1160/au.png',
-        team_img3: 'http://flags.fmcdn.net/data/flags/w1160/pe.png',
-        team_img4: 'http://flags.fmcdn.net/data/flags/w1160/dk.png'
-    },
-    {
-        group: 'GRUPO D',
-        team1: 'Argentina',
-        team2: 'Islandia',
-        team3: 'Croacia',
-        team4: 'Nigeria',
-        team_img1: 'http://flags.fmcdn.net/data/flags/w1160/ar.png',
-        team_img2: 'http://flags.fmcdn.net/data/flags/w1160/is.png',
-        team_img3: 'http://flags.fmcdn.net/data/flags/w1160/hr.png',
-        team_img4: 'http://flags.fmcdn.net/data/flags/w1160/ng.png'
-    },
-    {
-        group: 'GRUPO E',
-        team1: 'Brasil',
-        team2: 'Suiza',
-        team3: 'Costa Rica',
-        team4: 'Serbia',
-        team_img1: 'http://flags.fmcdn.net/data/flags/w1160/br.png',
-        team_img2: 'http://flags.fmcdn.net/data/flags/w1160/ch.png',
-        team_img3: 'http://flags.fmcdn.net/data/flags/w1160/cr.png',
-        team_img4: 'http://flags.fmcdn.net/data/flags/w1160/rs.png'
-    },
-    {
-        group: 'GRUPO F',
-        team1: 'Alemania',
-        team2: 'México',
-        team3: 'Suecia',
-        team4: 'Rep. de Corea',
-        team_img1: 'http://flags.fmcdn.net/data/flags/w1160/de.png',
-        team_img2: 'http://flags.fmcdn.net/data/flags/w1160/mx.png',
-        team_img3: 'http://flags.fmcdn.net/data/flags/w1160/se.png',
-        team_img4: 'http://flags.fmcdn.net/data/flags/w1160/kr.png'
-    },
-    {
-        group: 'GRUPO G',
-        team1: 'Bélgica',
-        team2: 'Panamá',
-        team3: 'Túnez',
-        team4: 'Inglaterra',
-        team_img1: 'http://flags.fmcdn.net/data/flags/w1160/be.png',
-        team_img2: 'http://flags.fmcdn.net/data/flags/w1160/pa.png',
-        team_img3: 'http://flags.fmcdn.net/data/flags/w1160/tn.png',
-        team_img4: 'http://flags.fmcdn.net/data/flags/w1160/gb.png'
-    },
-    {
-        group: 'GRUPO H',
-        team1: 'Polonia',
-        team2: 'Senegal',
-        team3: 'Colombia',
-        team4: 'Japón',
-        team_img1: 'http://flags.fmcdn.net/data/flags/w1160/pl.png',
-        team_img2: 'http://flags.fmcdn.net/data/flags/w1160/sn.png',
-        team_img3: 'http://flags.fmcdn.net/data/flags/w1160/co.png',
-        team_img4: 'http://flags.fmcdn.net/data/flags/w1160/jp.png'
     }
+    
 ];
 
 var stadiums = [
@@ -325,13 +164,13 @@ app.get('/', (req, res) => {
 // ***************************************************************
 
 // Listar todos los partidos
-app.get('/calendar', (req, res) => {
-    res.send(calendar)
+app.get('/pelicula', (req, res) => {
+    res.send(pelicula)
 })
 
 // Listar todos los grupos
-app.get('/group', (req, res) => {
-    res.send(groups)
+app.get('/genero', (req, res) => {
+    res.send(generos)
 })
 
 // Listar todas las noticias
@@ -371,14 +210,7 @@ app.post('/login', (req, res) => {
 app.post('/signup', (req, res) => {
     let data = req.body;
     let consecutive = users.length;
-    // let itemUser = {
-    //     id: consecutive,
-    //     user: data.user,
-    //     password: data.pass,
-    //     name: data.name,
-    //     email: data.email,
-    //     img_user: 'https://www.littlemiracles.com.au/wp-content/uploads/2015/08/kid-on-ipad.png'
-    // };
+   
     let itemUser = {
         user: data.user,
         password: data.pass,
