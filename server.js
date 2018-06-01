@@ -43,7 +43,7 @@ var generos = [
     
 ];
 
-var stadiums = [
+var sinopsis = [
     {
         id: '1',
         name: 'Estadio Kaliningrado',
@@ -130,7 +130,7 @@ var stadiums = [
     }
 ];
 
-var news = [
+var trailer = [
     {
         id: '1',
         title: 'Rusia da la bienvenida al mundo',
@@ -174,13 +174,13 @@ app.get('/genero', (req, res) => {
 })
 
 // Listar todas las noticias
-app.get('/news', (req, res) => {
-    res.send(news)
+app.get('/trailer', (req, res) => {
+    res.send(trailer)
 })
 
 // Listar todos los estadios
-app.get('/stadium', (req, res) => {
-    res.send(stadiums)
+app.get('/sinopsis', (req, res) => {
+    res.send(sinopsis)
 })
 
 // Validar user and pass 
