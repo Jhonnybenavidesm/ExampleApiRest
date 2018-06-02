@@ -37,6 +37,15 @@ var pelicula = [
         director: 'Alexandre Avancini',
         imagen:'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg',
         trailer: 'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg'
+    },
+
+    {   id: '3', 
+        titulo: 'El no nacido', 
+        genero: 'Terror', 
+        anio: '2009', 
+        director: 'David S. Goyer',
+        imagen: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg',
+        trailer: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg'
     }
 ];
 
