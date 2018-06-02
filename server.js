@@ -36,7 +36,7 @@ var pelicula = [
         anio: '2018', 
         director: 'Alexandre Avancini'
         imagen:'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg',
-        trailer: 'https://cinepass.com.ec/pso/peliculas/manana/nada-que-perder/'
+        trailer: 'https://new.cinemark.com.co/movie?tag=2400&corporate_film_id=176879'
     },
 
     {   id: 3, 
@@ -45,7 +45,7 @@ var pelicula = [
         anio: '2009', 
         director: 'David S. Goyer',
         imagen: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg',
-        trailer: 'https://youtu.be/TDJE2gc9UB8'
+        trailer: 'https://new.cinemark.com.co/movie?tag=2400&corporate_film_id=176879'
     },
 
     {
@@ -55,7 +55,7 @@ var pelicula = [
         anio: '2018', 
         director: 'David Leitch'
         imagen: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg',
-        trailer: 'https://youtu.be/c1vKtI2Xais'
+        trailer: 'https://new.cinemark.com.co/movie?tag=2400&corporate_film_id=176879'
     }
 ];
 
