@@ -21,41 +21,22 @@ var users = [
 ];
 
 var pelicula = [
-     {  id: '1', 
+     {  id: 1, 
         titulo: 'Avengers Infinity War', 
         genero: 'Fantasia', 
         anio: '2018', 
         director: 'Anthony Russo',
         imagen:'http://www.rockandpop.cl/wp-content/uploads/2018/03/landscape-1500890190-avengers-infinity-war-poster-resized-1.jpg',
-        trailer:'http://www.rockandpop.cl/wp-content/uploads/2018/03/landscape-1500890190-avengers-infinity-war-poster-resized-1.jpg'
-     }
+        trailer:'https://new.cinemark.com.co/movie?tag=2400&corporate_film_id=176879'
+     },
 
      {   id: '2', 
         titulo: 'Nada que Perder', 
         genero: 'Accion/Aventura' , 
         anio: '2018', 
         director: 'Alexandre Avancini',
-        imagen:'bvn',
-        trailer: 'hcvc'
-    },
-
-    {   id: '3', 
-        titulo: 'El no nacido', 
-        genero: 'Terror', 
-        anio: '2009', 
-        director: 'David S. Goyer',
-        imagen: 'bn',
-        trailer: 'gh'
-    },
-
-    {
-        id: '4', 
-        titulo: 'Deadpool2', 
-        genero: 'Fantasia/Comedia', 
-        anio: '2018', 
-        director: 'David Leitch',
-        imagen: 'fg',
-        trailer: 'gh'
+        imagen:'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg',
+        trailer: 'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg'
     }
 ];
 
