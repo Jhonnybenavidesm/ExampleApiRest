@@ -36,7 +36,7 @@ var pelicula = [
         anio: '2018', 
         director: 'Alexandre Avancini',
         imagen:'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg',
-        trailer: 'https://new.cinemark.com.co/movie?tag=2400&corporate_film_id=176879'
+        trailer: 'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg'
     },
 
     {   id: 3, 
@@ -45,7 +45,7 @@ var pelicula = [
         anio: '2009', 
         director: 'David S. Goyer',
         imagen: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg',
-        trailer: 'https://new.cinemark.com.co/movie?tag=2400&corporate_film_id=176879'
+        trailer: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg'
     },
 
     {
@@ -55,7 +55,7 @@ var pelicula = [
         anio: '2018', 
         director: 'David Leitch',
         imagen: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg',
-        trailer: 'https://new.cinemark.com.co/movie?tag=2400&corporate_film_id=176879'
+        trailer: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg'
     }
 ];
 
