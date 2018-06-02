@@ -34,7 +34,7 @@ var pelicula = [
         titulo: 'Nada que Perder', 
         genero: 'Accion/Aventura' , 
         anio: '2018', 
-        director: 'Alexandre Avancini'
+        director: 'Alexandre Avancini',
         imagen:'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg',
         trailer: 'https://new.cinemark.com.co/movie?tag=2400&corporate_film_id=176879'
     },
@@ -53,7 +53,7 @@ var pelicula = [
         titulo: 'Deadpool2', 
         genero: 'Fantasia/Comedia', 
         anio: '2018', 
-        director: 'David Leitch'
+        director: 'David Leitch',
         imagen: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg',
         trailer: 'https://new.cinemark.com.co/movie?tag=2400&corporate_film_id=176879'
     }
