@@ -15,8 +15,8 @@ var users = [
         user: 'admin',
         password: '123456',
         name: 'admin',
-        email: 'admin@movie.com',
-        img_user: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg'
+        email: 'admin@worldcup.com',
+        img_user: 'https://www.littlemiracles.com.au/wp-content/uploads/2015/08/kid-on-ipad.png'
     }
 ];
 
@@ -28,48 +28,20 @@ var pelicula = [
         director: 'Anthony Russo',
         imagen:'http://www.rockandpop.cl/wp-content/uploads/2018/03/landscape-1500890190-avengers-infinity-war-poster-resized-1.jpg',
         trailer:'https://new.cinemark.com.co/movie?tag=2400&corporate_film_id=176879'
-     },
-
-    {   id: 2, 
-        titulo: 'Nada que Perder', 
-        genero: 'Accion/Aventura' , 
-        anio: '2018', 
-        director: 'Alexandre Avancini',
-        imagen:'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg',
-        trailer: 'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg'
-    },
-
-    {   id: 3, 
-        titulo: 'El no nacido', 
-        genero: 'Terror', 
-        anio: '2009', 
-        director: 'David S. Goyer',
-        imagen: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg',
-        trailer: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg'
-    },
-
-    {
-        id: 4, 
-        titulo: 'Deadpool2', 
-        genero: 'Fantasia/Comedia', 
-        anio: '2018', 
-        director: 'David Leitch',
-        imagen: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg',
-        trailer: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg'
-    }
+     }
 ];
 
 var generos = [
     {
         genero: 'FANTASIA',
-        team1: 'Avengers Infinity War',
-        team2: 'Nada que Perder',
-        team3: 'El no nacido',
-        team4: 'Deadpool2',
-        team_img1: 'http://www.rockandpop.cl/wp-content/uploads/2018/03/landscape-1500890190-avengers-infinity-war-poster-resized-1.jpg',
-        team_img2: 'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg',
-        team_img3: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg',
-        team_img4: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg'
+        team1: 'Rusia',
+        team2: 'Arabia Saudí',
+        team3: 'Egipto',
+        team4: 'Uruguay',
+        team_img1: 'http://flags.fmcdn.net/data/flags/w1160/ru.png',
+        team_img2: 'http://flags.fmcdn.net/data/flags/w1160/sa.png',
+        team_img3: 'http://flags.fmcdn.net/data/flags/w1160/eg.png',
+        team_img4: 'http://flags.fmcdn.net/data/flags/w1160/uy.png'
     }
     
 ];
@@ -77,59 +49,108 @@ var generos = [
 var sinopsis = [
     {
         id: '1',
-        name: 'Avengers Infinity War',
-        description: 'Los superhéroes se alían para vencer al poderoso Thanos, el peor enemigo al que se han enfrentado. Si Thanos logra reunir las seis gemas del infinito: poder, tiempo, alma, realidad, mente y espacio, nadie podrá detenerlo.',
+        name: 'Estadio Kaliningrado',
+        description: 'xxx',
         star: '3',
-        url_img: 'http://www.rockandpop.cl/wp-content/uploads/2018/03/landscape-1500890190-avengers-infinity-war-poster-resized-1.jpg'
+        url_img: 'https://img.fifa.com/image/upload/t_l4/zd4xfvozxlbz4ogzvl84.jpg'
     },
     {
         id: '2',
-        name: 'Nada que Perder',
-        description: 'Nada que perder es una película dirigida por Alexandre Avancini con Day Mesquita, Petronio Gontijo, Beth Goulart. Año: 2018. Título original: Nada a Perder.',
+        name: 'Estadio Volgogrado Arena',
+        description: 'xxx',
         star: '3',
-        url_img: 'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg'
+        url_img: 'https://img.fifa.com/image/upload/t_l4/n0i7ecb1dlfjkcevjn68.jpg'
     },
     {
         id: '3',
-        name: 'El no nacido',
-        description: 'Con la ayuda de un espiritista (Gary Oldman), una mujer (Odette Yustman) descubre una maldición familiar que data de la Alemania nazi e involucra a un espíritu endemoniado con el poder de destruir cualquier cosa y persona.',
+        name: 'Estadio Ekaterimburgo Arena',
+        description: 'xxx',
         star: '3',
-        url_img: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg'
+        url_img: 'https://img.fifa.com/image/upload/t_l4/qwmfhwry65bhnowuu792.jpg'
+    },
     {
         id: '4',
-        name: 'Deadpool2',
-        description: 'Deadpool 2​ es una película de superhéroes basada en el personaje de Marvel Comics Deadpool, distribuida por 20th Century Fox. Es la duodécima película de la saga de películas de X-Men, y una secuela directa de Deadpool la película de 2016.',
+        name: 'Estadio Fisht',
+        description: 'xxx',
         star: '3',
-        url_img: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg'
+        url_img: 'https://img.fifa.com/mm/photo/tournament/competition/02/89/93/84/2899384_full-lnd.jpg'
+    },
+    {
+        id: '5',
+        name: 'Estadio Kazán Arena',
+        description: 'xxx',
+        star: '3',
+        url_img: 'https://img.fifa.com/image/upload/t_l4/iyvktjjff6om7clsussx.jpg'
+    },
+    {
+        id: '6',
+        name: 'Estadio Nizhni Nóvgorod',
+        description: 'xxx',
+        star: '3',
+        url_img: 'https://img.fifa.com/image/upload/t_l4/iwokfedscpj4defmjxef.jpg'
+    },
+    {
+        id: '7',
+        name: 'Estadio Luzhniki',
+        description: 'xxx',
+        star: '3',
+        url_img: 'https://img.fifa.com/image/upload/t_l4/p1askyr6af4jekbzujmx.jpg'
+    },
+    {
+        id: '8',
+        name: 'Estadio Samara Arena',
+        description: 'xxx',
+        star: '3',
+        url_img: 'https://img.fifa.com/image/upload/t_l4/d0mymt1ubl2pypmu3gn3.jpg'
+    },
+    {
+        id: '9',
+        name: 'Estadio Rostov Arena',
+        description: 'xxx',
+        star: '3',
+        url_img: 'https://img.fifa.com/image/upload/t_l4/e95vbvut3zk2z2kjaqf0.jpg'
+    },
+    {
+        id: '10',
+        name: 'Estadio Spartak',
+        description: 'xxx',
+        star: '3',
+        url_img: 'https://img.fifa.com/image/upload/t_l4/ju6b9ulfzqdxsliopfef.jpg'
+    },
+    {
+        id: '11',
+        name: 'Estadio San Petersburgo',
+        description: 'xxx',
+        star: '3',
+        url_img: 'https://img.fifa.com/image/upload/t_l4/zvisds7bd2u4nzayjat8.jpg'
+    },
+    {
+        id: '12',
+        name: 'Estadio Mordovia Arena',
+        description: 'xxx',
+        star: '3',
+        url_img: 'https://img.fifa.com/image/upload/t_l4/pe6ww45wda53kaj226y0.jpg'
     }
-   
 ];
 
 var trailer = [
     {
         id: '1',
-        title: 'Avengers Infinity War',
-        subtitle: 'Los superhéroes se alían para vencer al poderoso Thanos',
-        url_news: 'http://www.rockandpop.cl/wp-content/uploads/2018/03/landscape-1500890190-avengers-infinity-war-poster-resized-1.jpg'
+        title: 'Rusia da la bienvenida al mundo',
+        subtitle: 'Tras años de duro trabajo, el país anfitrión se prepara para recibir a todos los aficionados que vengan a Rusia y a los combinados en liza.',
+        url_news: 'https://img.fifa.com/image/upload/t_tc1/fncpsqsxjsujcgqryl8p.jpg'
     },
     {
         id: '2',
-        title: 'Nada que Perder',
-        subtitle: 'Nada que perder es una película dirigida por Alexandre Avancini con Day Mesquita',
-        url_news: 'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg'
+        title: 'Live It Up, la canción oficial de Rusia 2018',
+        subtitle: 'Descubre ahora la música que nos acompañará durante la Copa Mundial de la FIFA Rusia 2018. Interpretada por Nicky Jam, con Will Smith y Era Isterefi.',
+        url_news: 'https://img.fifa.com/image/upload/t_tc1/ax7h2zljgevmmv8povax.jpg'
     },
     {
         id: '3',
-        title: 'El no nacido',
-        subtitle: 'descubre una maldición familiar',
-        url_news: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg'
-    }
-
-    {
-        id: '4',
-        title: 'Deadpool2',
-        subtitle: 'película de superhéroes',
-        url_news: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg'
+        title: '356.700 entradas asignadas en solo 24 horas',
+        subtitle: 'Dado el gran interés que despierta el torneo, la FIFA recuerda a los aficionados que FIFA.com/tickets es la única página web oficial para la compra de entradas.',
+        url_news: 'https://img.fifa.com/image/upload/t_tc1/vobrzd4d2veojlldjqim.jpg'
     }
 ];
 
