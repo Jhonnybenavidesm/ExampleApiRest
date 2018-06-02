@@ -46,6 +46,16 @@ var pelicula = [
         director: 'David S. Goyer',
         imagen: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg',
         trailer: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg'
+    },
+
+    {
+        id: '4', 
+        titulo: 'Deadpool2', 
+        genero: 'Fantasia/Comedia', 
+        anio: '2018', 
+        director: 'David Leitch',
+        imagen: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg',
+        trailer: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg'
     }
 ];
 
