@@ -110,23 +110,32 @@ var sinopsis = [
 ];
 
 var trailer = [
-    {
+     {
         id: '1',
-        title: 'Rusia da la bienvenida al mundo',
-        subtitle: 'Tras años de duro trabajo, el país anfitrión se prepara para recibir a todos los aficionados que vengan a Rusia y a los combinados en liza.',
-        url_news: 'https://img.fifa.com/image/upload/t_tc1/fncpsqsxjsujcgqryl8p.jpg'
+        title: 'Avengers Infinity War',
+        subtitle: 'Los superhéroes se alían para vencer al poderoso Thanos',
+        url_news: 'http://www.rockandpop.cl/wp-content/uploads/2018/03/landscape-1500890190-avengers-infinity-war-poster-resized-1.jpg'
     },
+
     {
         id: '2',
-        title: 'Live It Up, la canción oficial de Rusia 2018',
-        subtitle: 'Descubre ahora la música que nos acompañará durante la Copa Mundial de la FIFA Rusia 2018. Interpretada por Nicky Jam, con Will Smith y Era Isterefi.',
-        url_news: 'https://img.fifa.com/image/upload/t_tc1/ax7h2zljgevmmv8povax.jpg'
+        title: 'Nada que Perder',
+        subtitle: 'Nada que perder es una película dirigida por Alexandre Avancini con Day Mesquita',
+        url_news: 'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg'
     },
+
     {
         id: '3',
-        title: '356.700 entradas asignadas en solo 24 horas',
-        subtitle: 'Dado el gran interés que despierta el torneo, la FIFA recuerda a los aficionados que FIFA.com/tickets es la única página web oficial para la compra de entradas.',
-        url_news: 'https://img.fifa.com/image/upload/t_tc1/vobrzd4d2veojlldjqim.jpg'
+        title: 'El no nacido',
+        subtitle: 'descubre una maldición familiar',
+        url_news: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg'
+    },
+
+    {
+        id: '4',
+        title: 'Deadpool2',
+        subtitle: 'película de superhéroes',
+        url_news: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg'
     }
 ];
 
