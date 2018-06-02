@@ -81,6 +81,30 @@ var sinopsis = [
         description: 'Los superhéroes se alían para vencer al poderoso Thanos, el peor enemigo al que se han enfrentado. Si Thanos logra reunir las seis gemas del infinito: poder, tiempo, alma, realidad, mente y espacio, nadie podrá detenerlo.',
         star: '3',
         url_img: 'http://www.rockandpop.cl/wp-content/uploads/2018/03/landscape-1500890190-avengers-infinity-war-poster-resized-1.jpg'
+    },
+
+    {
+        id: '2',
+        name: 'Nada que Perder',
+        description: 'Nada que perder es una película dirigida por Alexandre Avancini con Day Mesquita, Petronio Gontijo, Beth Goulart. Año: 2018. Título original: Nada a Perder.',
+        star: '3',
+        url_img: 'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg'
+    },
+
+    {
+        id: '3',
+        name: 'El no nacido',
+        description: 'Con la ayuda de un espiritista (Gary Oldman), una mujer (Odette Yustman) descubre una maldición familiar que data de la Alemania nazi e involucra a un espíritu endemoniado con el poder de destruir cualquier cosa y persona.',
+        star: '3',
+        url_img: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg'
+    },
+
+    {
+        id: '4',
+        name: 'Deadpool2',
+        description: 'Deadpool 2​ es una película de superhéroes basada en el personaje de Marvel Comics Deadpool, distribuida por 20th Century Fox. Es la duodécima película de la saga de películas de X-Men, y una secuela directa de Deadpool la película de 2016.',
+        star: '3',
+        url_img: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg'
     }
     
 ];
