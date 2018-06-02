@@ -15,8 +15,8 @@ var users = [
         user: 'admin',
         password: '123456',
         name: 'admin',
-        email: 'admin@worldcup.com',
-        img_user: 'https://www.littlemiracles.com.au/wp-content/uploads/2015/08/kid-on-ipad.png'
+        email: 'admin@movie.com',
+        img_user: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg'
     }
 ];
 
@@ -35,7 +35,7 @@ var pelicula = [
         genero: 'Accion/Aventura' , 
         anio: '2018', 
         director: 'Alexandre Avancini'
-        imagen:'https://s3.amazonaws.com/palapadata/peliculas/nada-que-perder.jpg',
+        imagen:'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg',
         trailer: 'https://cinepass.com.ec/pso/peliculas/manana/nada-que-perder/'
     },
 
@@ -44,7 +44,7 @@ var pelicula = [
         genero: 'Terror', 
         anio: '2009', 
         director: 'David S. Goyer',
-        imagen: 'https://royal-films.com/covers/1525718372939_EL-NO-NACIDO-Oficial.jpg',
+        imagen: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg',
         trailer: 'https://youtu.be/TDJE2gc9UB8'
     },
 
@@ -54,7 +54,7 @@ var pelicula = [
         genero: 'Fantasia/Comedia', 
         anio: '2018', 
         director: 'David Leitch'
-        imagen: 'https://royal-films.com/covers/1524524941771_Deadpool_2_Poster_Latino_4_JPosters.jpg',
+        imagen: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg',
         trailer: 'https://youtu.be/c1vKtI2Xais'
     }
 ];
@@ -67,9 +67,9 @@ var generos = [
         team3: 'El no nacido',
         team4: 'Deadpool2',
         team_img1: 'http://www.rockandpop.cl/wp-content/uploads/2018/03/landscape-1500890190-avengers-infinity-war-poster-resized-1.jpg',
-        team_img2: 'https://s3.amazonaws.com/palapadata/peliculas/nada-que-perder.jpg',
-        team_img3: 'https://royal-films.com/covers/1525718372939_EL-NO-NACIDO-Oficial.jpg',
-        team_img4: 'https://royal-films.com/covers/1524524941771_Deadpool_2_Poster_Latino_4_JPosters.jpg'
+        team_img2: 'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg',
+        team_img3: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg',
+        team_img4: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg'
     }
     
 ];
@@ -87,20 +87,20 @@ var sinopsis = [
         name: 'Nada que Perder',
         description: 'Nada que perder es una película dirigida por Alexandre Avancini con Day Mesquita, Petronio Gontijo, Beth Goulart. Año: 2018. Título original: Nada a Perder.',
         star: '3',
-        url_img: 'https://s3.amazonaws.com/palapadata/peliculas/nada-que-perder.jpg'
+        url_img: 'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg'
     },
     {
         id: '3',
         name: 'El no nacido',
         description: 'Con la ayuda de un espiritista (Gary Oldman), una mujer (Odette Yustman) descubre una maldición familiar que data de la Alemania nazi e involucra a un espíritu endemoniado con el poder de destruir cualquier cosa y persona.',
         star: '3',
-        url_img: 'https://royal-films.com/covers/1525718372939_EL-NO-NACIDO-Oficial.jpg'
+        url_img: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg'
     {
         id: '4',
         name: 'Deadpool2',
         description: 'Deadpool 2​ es una película de superhéroes basada en el personaje de Marvel Comics Deadpool, distribuida por 20th Century Fox. Es la duodécima película de la saga de películas de X-Men, y una secuela directa de Deadpool la película de 2016.',
         star: '3',
-        url_img: 'https://royal-films.com/covers/1524524941771_Deadpool_2_Poster_Latino_4_JPosters.jpg'
+        url_img: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg'
     }
    
 ];
@@ -116,20 +116,20 @@ var trailer = [
         id: '2',
         title: 'Nada que Perder',
         subtitle: 'Nada que perder es una película dirigida por Alexandre Avancini con Day Mesquita',
-        url_news: 'https://s3.amazonaws.com/palapadata/peliculas/nada-que-perder.jpg'
+        url_news: 'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg'
     },
     {
         id: '3',
         title: 'El no nacido',
         subtitle: 'descubre una maldición familiar',
-        url_news: 'https://royal-films.com/covers/1525718372939_EL-NO-NACIDO-Oficial.jpg'
+        url_news: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg'
     }
 
     {
         id: '4',
         title: 'Deadpool2',
         subtitle: 'película de superhéroes',
-        url_news: 'https://royal-films.com/covers/1524524941771_Deadpool_2_Poster_Latino_4_JPosters.jpg'
+        url_news: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg'
     }
 ];
 
