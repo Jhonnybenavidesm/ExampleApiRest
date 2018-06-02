@@ -77,88 +77,12 @@ var generos = [
 var sinopsis = [
     {
         id: '1',
-        name: 'Estadio Kaliningrado',
-        description: 'xxx',
+        name: 'Avengers Infinity War',
+        description: 'Los superhéroes se alían para vencer al poderoso Thanos, el peor enemigo al que se han enfrentado. Si Thanos logra reunir las seis gemas del infinito: poder, tiempo, alma, realidad, mente y espacio, nadie podrá detenerlo.',
         star: '3',
-        url_img: 'https://img.fifa.com/image/upload/t_l4/zd4xfvozxlbz4ogzvl84.jpg'
-    },
-    {
-        id: '2',
-        name: 'Estadio Volgogrado Arena',
-        description: 'xxx',
-        star: '3',
-        url_img: 'https://img.fifa.com/image/upload/t_l4/n0i7ecb1dlfjkcevjn68.jpg'
-    },
-    {
-        id: '3',
-        name: 'Estadio Ekaterimburgo Arena',
-        description: 'xxx',
-        star: '3',
-        url_img: 'https://img.fifa.com/image/upload/t_l4/qwmfhwry65bhnowuu792.jpg'
-    },
-    {
-        id: '4',
-        name: 'Estadio Fisht',
-        description: 'xxx',
-        star: '3',
-        url_img: 'https://img.fifa.com/mm/photo/tournament/competition/02/89/93/84/2899384_full-lnd.jpg'
-    },
-    {
-        id: '5',
-        name: 'Estadio Kazán Arena',
-        description: 'xxx',
-        star: '3',
-        url_img: 'https://img.fifa.com/image/upload/t_l4/iyvktjjff6om7clsussx.jpg'
-    },
-    {
-        id: '6',
-        name: 'Estadio Nizhni Nóvgorod',
-        description: 'xxx',
-        star: '3',
-        url_img: 'https://img.fifa.com/image/upload/t_l4/iwokfedscpj4defmjxef.jpg'
-    },
-    {
-        id: '7',
-        name: 'Estadio Luzhniki',
-        description: 'xxx',
-        star: '3',
-        url_img: 'https://img.fifa.com/image/upload/t_l4/p1askyr6af4jekbzujmx.jpg'
-    },
-    {
-        id: '8',
-        name: 'Estadio Samara Arena',
-        description: 'xxx',
-        star: '3',
-        url_img: 'https://img.fifa.com/image/upload/t_l4/d0mymt1ubl2pypmu3gn3.jpg'
-    },
-    {
-        id: '9',
-        name: 'Estadio Rostov Arena',
-        description: 'xxx',
-        star: '3',
-        url_img: 'https://img.fifa.com/image/upload/t_l4/e95vbvut3zk2z2kjaqf0.jpg'
-    },
-    {
-        id: '10',
-        name: 'Estadio Spartak',
-        description: 'xxx',
-        star: '3',
-        url_img: 'https://img.fifa.com/image/upload/t_l4/ju6b9ulfzqdxsliopfef.jpg'
-    },
-    {
-        id: '11',
-        name: 'Estadio San Petersburgo',
-        description: 'xxx',
-        star: '3',
-        url_img: 'https://img.fifa.com/image/upload/t_l4/zvisds7bd2u4nzayjat8.jpg'
-    },
-    {
-        id: '12',
-        name: 'Estadio Mordovia Arena',
-        description: 'xxx',
-        star: '3',
-        url_img: 'https://img.fifa.com/image/upload/t_l4/pe6ww45wda53kaj226y0.jpg'
+        url_img: 'http://www.rockandpop.cl/wp-content/uploads/2018/03/landscape-1500890190-avengers-infinity-war-poster-resized-1.jpg'
     }
+    
 ];
 
 var trailer = [
