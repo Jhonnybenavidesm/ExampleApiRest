@@ -234,7 +234,52 @@ var sinopsis = [
         description: 'Deadpool 2​ es una película de superhéroes basada en el personaje de Marvel Comics Deadpool, distribuida por 20th Century Fox. Es la duodécima película de la saga de películas de X-Men, y una secuela directa de Deadpool la película de 2016.',
         star: '3',
         url_img: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg'
+    },
+
+
+    {   id: '5', 
+        name: 'Get Out', 
+        description: 'Drama', 
+        star: '3', 
+        url_img: 'http://3.bp.blogspot.com/-mJbzSAcWaUI/WmAD9pUyq2I/AAAAAAAAEAE/ZimN4PloKdcM9xULAtadzRbYBGvGFtAgwCK4BGAYYCw/s1600/get%2Bout%2Bp-708788.jpg'
+        
+    },
+
+    {   id: '6', 
+        name: 'Logan', 
+        description: 'Fantasia/Comedia', 
+        star: '3', 
+        url_img: 'http://plumaslibres.com.mx/wp-content/uploads/2017/03/5807d2cb108db-690x518.jpg'
+    },
+
+    {   id: '7', 
+        name: 'Wonder Woman', 
+        description: 'Fantasia',
+        star: '3', 
+        url_img: 'http://es.web.img2.acsta.net/c_400_200/newsv7/18/04/19/12/53/4869078.jpg'
+    },
+
+    {   id: '8', 
+        name: 'My Life as a Zucchini', 
+        description: 'Fantasia', 
+        star: '3', 
+        url_img: 'http://salalibre.com/wp-content/uploads/2018/03/3924480.jpg'
+    },
+
+    {   id: '9', 
+        name: 'Am Not Your Negro ', 
+        description: 'Documental', 
+        star: '3', 
+        url_img: 'http://unidadylucha.es/images/1803/P-15%20I%20AM%20NOT%20YOUR%20NEGRO%20FOTO.jpg'
+    },
+
+    {   id: '10', 
+        name: 'Hidden Figures', 
+        description: 'Drama', 
+        star: '3', 
+        url_img: 'http://www.siempreeventos.com/wp-content/uploads/2018/05/PelculaHiddenFigures-Ateneo-CiudaddelSaber.jpg'
     }
+
     
 ];
 
@@ -266,6 +311,11 @@ var trailer = [
         subtitle: 'película de superhéroes',
         url_news: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg'
     }
+
+    
+
+
+    
 ];
 
 // ***************************************************************
