@@ -56,7 +56,110 @@ var pelicula = [
         director: 'David Leitch',
         imagen: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg',
         trailer: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg'
+    },
+
+    {   id: '5', 
+        titulo: 'Get Out', 
+        genero: 'Drama', 
+        anio: '2017', 
+        director: 'Jordan Peele'
+        imagen: 'http://3.bp.blogspot.com/-mJbzSAcWaUI/WmAD9pUyq2I/AAAAAAAAEAE/ZimN4PloKdcM9xULAtadzRbYBGvGFtAgwCK4BGAYYCw/s1600/get%2Bout%2Bp-708788.jpg',
+        trailer: 'http://3.bp.blogspot.com/-mJbzSAcWaUI/WmAD9pUyq2I/AAAAAAAAEAE/ZimN4PloKdcM9xULAtadzRbYBGvGFtAgwCK4BGAYYCw/s1600/get%2Bout%2Bp-708788.jpg',
+    },
+
+    {   id: '6', 
+        titulo: 'Logan', 
+        genero: 'Fantasia/Comedia', 
+        anio: '2017', 
+        director: 'James Mangold'
+        imagen: 'http://plumaslibres.com.mx/wp-content/uploads/2017/03/5807d2cb108db-690x518.jpg',
+        trailer: 'http://plumaslibres.com.mx/wp-content/uploads/2017/03/5807d2cb108db-690x518.jpg'
+    },
+
+    {   id: '7', 
+        titulo: 'Wonder Woman', 
+        genero: 'Fantasia',
+        anio: '2017', 
+        director: 'Patty Jenkins'
+        imagen: 'http://es.web.img2.acsta.net/c_400_200/newsv7/18/04/19/12/53/4869078.jpg',
+        trailer: 'http://es.web.img2.acsta.net/c_400_200/newsv7/18/04/19/12/53/4869078.jpg'
+    },
+
+    {   id: '8', 
+        titulo: 'My Life as a Zucchini', 
+        genero: 'Fantasia', 
+        anio: '2016', 
+        director: 'Claude Barras'
+        imagen: 'http://salalibre.com/wp-content/uploads/2018/03/3924480.jpg',
+        trailer: 'http://salalibre.com/wp-content/uploads/2018/03/3924480.jpg'
+    },
+
+    {   id: '9', 
+        titulo: 'Am Not Your Negro ', 
+        genero: 'Documental', 
+        anio: '2017', 
+        director: 'Raoul Peck'
+        imagen: 'http://unidadylucha.es/images/1803/P-15%20I%20AM%20NOT%20YOUR%20NEGRO%20FOTO.jpg',
+        trailer: 'http://unidadylucha.es/images/1803/P-15%20I%20AM%20NOT%20YOUR%20NEGRO%20FOTO.jpg'
+    },
+
+    {   id: '10', 
+    titulo: 'Hidden Figures', 
+    genero: 'Drama', 
+    anio: '2016', 
+    director: 'Theodore Melfi'
+    imagen: 'http://www.siempreeventos.com/wp-content/uploads/2018/05/PelculaHiddenFigures-Ateneo-CiudaddelSaber.jpg',
+    trailer: 'http://www.siempreeventos.com/wp-content/uploads/2018/05/PelculaHiddenFigures-Ateneo-CiudaddelSaber.jpg'
+    },
+
+    {   id: '11', 
+    titulo: 'The Salesman (Forushande) ', 
+    genero: 'Drama', 
+    anio: '2017', 
+    director: 'Asghar Farhadi'
+    imagen: 'http://plumaslibres.com.mx/wp-content/uploads/2017/03/5807d2cb108db-690x518.jpg',
+    trailer: 'http://plumaslibres.com.mx/wp-content/uploads/2017/03/5807d2cb108db-690x518.jpg'
+    
+    },
+
+    {   id: '12', 
+    titulo: 'Truman', 
+    genero: 'Drama/Comedia', 
+    anio: '1999', 
+    director: 'Peter Weir'
+    imagen: 'http://www.nosolocine.net/wp-content/uploads/2015/08/Truman-139862176-large1.jpg',
+    trailer: 'http://www.nosolocine.net/wp-content/uploads/2015/08/Truman-139862176-large1.jpg'
+    },
+
+    {   id: '13', 
+        titulo: 'The Lego Batman Movie ', 
+        genero: 'Animada', 
+        anio: '2017', 
+        director: 'Chris McKay'
+        imagen: 'http://cl.buscafs.com/www.tomatazos.com/public/uploads/images/134185.jpg',
+        trailer: 'http://cl.buscafs.com/www.tomatazos.com/public/uploads/images/134185.jpg'
+    },
+
+    {   id: '14', 
+        titulo: 'your Name. (Kimi No Na Wa.)', 
+        genero: 'Drama/Romantico', 
+        anio: '2016', 
+        director: 'Makoto Shinkai'
+        imagen: 'http://www.movistarplus.es/recorte/n/galeria/F3385311',
+        trailer: 'http://www.movistarplus.es/recorte/n/galeria/F3385311'
+    },
+
+    {   id: '15', 
+    titulo: 'Coco', 
+    genero: 'Familiar/Infantil', 
+    anio: '2017', 
+    director: 'Lee Unkrich'
+    imagen: 'http://cdn.eldeforma.com/wp-content/uploads/2017/10/22885893-1490013931034775-8081349849296759067-n.jpg',
+    trailer: 'http://cdn.eldeforma.com/wp-content/uploads/2017/10/22885893-1490013931034775-8081349849296759067-n.jpg'
     }
+
+
+
 ];
 
 var generos = [
