@@ -170,11 +170,37 @@ var generos = [
         team3: 'El no nacido',
         team4: 'Deadpool2',
         team_img1: 'http://www.rockandpop.cl/wp-content/uploads/2018/03/landscape-1500890190-avengers-infinity-war-poster-resized-1.jpg',
-        team_img2: 'http://www.cineart.com.br/fotos/noticias_cineart/212.jpg',
+        team_img2: 'http://www.nosolocine.net/wp-content/uploads/2015/08/Truman-139862176-large1.jpg',
         team_img3: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg',
         team_img4: 'http://mty360.net/wp-content/uploads/2018/05/Deadpool-2.jpg'
-    }
+    },
+
+
+    {
+        genero: 'Drama',
+        team1: 'your Name',
+        team2: 'Truman',
+        team3: 'The Salesman',
+        team4: 'Deadpool2',
+        team_img1: 'http://www.movistarplus.es/recorte/n/galeria/F3385311',
+        team_img2: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg',
+        team_img3: 'http://plumaslibres.com.mx/wp-content/uploads/2017/03/5807d2cb108db-690x518.jpg',
+        team_img4: 'http://www.siempreeventos.com/wp-content/uploads/2018/05/PelculaHiddenFigures-Ateneo-CiudaddelSaber.jpg'
+    },
+
     
+    {
+        genero: 'Terror',
+        team1: 'El no nacido',
+        team2: 'Nada que Perder',
+        team3: 'El no nacido',
+        team4: 'Hidden Figures',
+        team_img1: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg',
+        team_img2: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg',
+        team_img3: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg',
+        team_img4: 'http://ondacero.com.pe/j/images/galerias/2018-03-01_-1519911958.jpg'
+    }
+
 ];
 
 var sinopsis = [
