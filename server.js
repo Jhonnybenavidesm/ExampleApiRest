@@ -25,7 +25,7 @@ var users = [
         password: '123456',
         name: 'jhonny',
         email: 'jhonny@pelicula.com',
-        img_user: 'https://www.littlemiracles.com.au/wp-content/uploads/2015/08/kid-on-ipad.png'
+        img_user: 'https://scontent.fbga1-3.fna.fbcdn.net/v/t1.0-9/15134699_1249057525151721_3710048190897085053_n.jpg?_nc_cat=0&oh=cf49a498dd3eeef8ed20a05cbed9480a&oe=5BB7A972'
     },
 
     {
