@@ -16,7 +16,7 @@ var users = [
         password: '123456',
         name: 'admin',
         email: 'admin@pelicula.com',
-        img_user: 'https://www.littlemiracles.com.au/wp-content/uploads/2015/08/kid-on-ipad.png'
+        img_user: 'https://scontent.fbga1-3.fna.fbcdn.net/v/t1.0-9/26804774_1774935989225179_8773471062612719505_n.jpg?_nc_cat=0&oh=a996c254d89bea1886ac298c29fdf259&oe=5BC30D32'
     },
 
     {
@@ -34,7 +34,7 @@ var users = [
         password: '123456',
         name: 'mayerlin',
         email: 'maye@pelicula.com',
-        img_user: 'https://www.littlemiracles.com.au/wp-content/uploads/2015/08/kid-on-ipad.png'
+        img_user: 'https://scontent.fbga1-3.fna.fbcdn.net/v/t1.0-1/28379540_1825296264189151_1654560478652657296_n.jpg?_nc_cat=0&oh=6ef97e45c49addec5272ec8ccda36cf8&oe=5BBB8B85'
     }
 
 ];
