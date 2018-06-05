@@ -15,9 +15,28 @@ var users = [
         user: 'admin',
         password: '123456',
         name: 'admin',
-        email: 'admin@worldcup.com',
+        email: 'admin@pelicula.com',
+        img_user: 'https://www.littlemiracles.com.au/wp-content/uploads/2015/08/kid-on-ipad.png'
+    },
+
+    {
+        id: '2',
+        user: 'jhonny',
+        password: '123456',
+        name: 'jhonny',
+        email: 'jhonny@pelicula.com',
+        img_user: 'https://www.littlemiracles.com.au/wp-content/uploads/2015/08/kid-on-ipad.png'
+    },
+
+    {
+        id: '3',
+        user: 'mayerlin',
+        password: '123456',
+        name: 'mayerlin',
+        email: 'maye@pelicula.com',
         img_user: 'https://www.littlemiracles.com.au/wp-content/uploads/2015/08/kid-on-ipad.png'
     }
+
 ];
 
 var pelicula = [
